@@ -1,7 +1,9 @@
+package com.projetono;
+
 public class No2 {
 
     private int dado;
-    private int refNo;
+    private No2 refNo;
 
     public No2() {
     }
@@ -22,17 +24,14 @@ public class No2 {
         this.refNo = refNo;
     }
 
-    public int getRefNo() {
+    public No2 getRefNo() {
         return refNo;
     }
 
-    public void setRefDado(int refNo) {
-        this.refNo = refNo;
-    }
 
     @Override
     public String toString() {
-        return "No2{" +
+        return "com.projetono.No2{" +
                 "dado=" + dado +
                 '}';
     }
